@@ -1,0 +1,48 @@
+{
+  "name": "baked-cookies",
+  "version": "0.0.1",
+  "description": "Pure JS library to parse and serialize cookie strings for further manipulation",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "parcel build",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmytrobaida/baked-cookies.git"
+  },
+  "keywords": [
+    "cookie",
+    "cookies",
+    "nodejs",
+    "browser",
+    "client",
+    "server",
+    "headers",
+    "request",
+    "response",
+    "parse",
+    "serialize",
+    "http",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Dmytro Baida",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@jest/globals": "^29.4.2",
+    "@parcel/packager-ts": "2.8.3",
+    "@parcel/transformer-typescript-types": "2.8.3",
+    "jest": "^29.4.2",
+    "parcel": "^2.8.3",
+    "ts-jest": "^29.0.5",
+    "typescript": ">=3.0.0"
+  }
+}
