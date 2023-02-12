@@ -1,4 +1,5 @@
 # Baked Cookies
+[![npm version](https://badge.fury.io/js/baked-cookies.svg)](https://badge.fury.io/js/baked-cookies)
 
 Pure JS library to parse and serialize cookie strings for further manipulation
 
