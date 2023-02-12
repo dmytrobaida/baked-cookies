@@ -37,4 +37,4 @@ const serializeResult = serialize({cookieKey: 'cookieValue'}); // serializeResul
 
 ## License
 
-Baked Cookies is released under the [MIT](License) license.
+Baked Cookies is released under the [MIT](LICENSE.md) license.
