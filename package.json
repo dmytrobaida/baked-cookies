@@ -1,6 +1,6 @@
 {
   "name": "baked-cookies",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Pure JS library to parse and serialize cookie strings for further manipulation",
   "source": "src/index.ts",
   "main": "dist/index.js",
