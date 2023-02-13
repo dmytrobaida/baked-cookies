@@ -24,7 +24,8 @@ In this example we are parsing cookie string. As result we are getting object of
 ``` javascript
 import { parse } from 'baked-cookies';
 
-const parseResult = parse('cookieKey=cookieValue;'); // parseResult = {cookieKey: 'cookieValue'}
+const parseResult = parse('cookieKey=cookieValue;');
+// parseResult = {cookieKey: 'cookieValue'}
 ```
 
 Here we are serializing object of key-value pair into cookie string.
@@ -32,7 +33,8 @@ Here we are serializing object of key-value pair into cookie string.
 ``` javascript
 import { serialize } from 'baked-cookies';
 
-const serializeResult = serialize({cookieKey: 'cookieValue'}); // serializeResult = 'cookieKey=cookieValue;'
+const serializeResult = serialize({cookieKey: 'cookieValue'});
+// serializeResult = 'cookieKey=cookieValue;'
 ```
 
 ## License
